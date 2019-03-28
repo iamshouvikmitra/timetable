@@ -1,7 +1,7 @@
 var cacheName = 'timetable-page';
 var filesToCache = [
-  '/timetable/',
-  '/timetable/index.html',
+  'https://iamshouvikmitra.github.io/timetable/',
+  'https://iamshouvikmitra.github.io/timetable/index.html',
 ];
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
