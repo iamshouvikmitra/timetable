@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" href="icons/Icon-36.png"
         sizes="36x36" type="image/png">
-    <script src="./sw.js"></script>
+    <script src="https://iamshouvikmitra.github.io/timetable/sw.js"></script>
 </head>
 
 <body>
@@ -49,7 +49,7 @@
             -webkit-appearance: none;
             -moz-appearance: none;
             appearance: none;
-            background: url('./icons/drop-down-arrow.png') 96% / 15% no-repeat;
+            background: url('https://iamshouvikmitra.github.io/timetable/icons/drop-down-arrow.png') 96% / 15% no-repeat;
         }
     </style>
     <div class="container">
@@ -168,7 +168,7 @@
         })
 
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
+            navigator.serviceWorker.register('https://iamshouvikmitra.github.io/timetable/sw.js')
                 .then(function () {
                     console.log('Service Worker Registered');
                 });
